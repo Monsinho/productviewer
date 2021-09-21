@@ -9,7 +9,13 @@ export default function Home() {
     src="http:/content.cylindo.com/api/v2/4965/products/EMMA_ARMCHAIR/frames/"
     width="720"
     height="454"
-  />;
+  />
+
+  <CylindoViewer
+    src="http:/content.cylindo.com/api/v2/4404/products/ARCHIBALDCHAIR/frames/"
+    width="560"
+    height="560"
+  />
 
   */
 
