@@ -37,7 +37,7 @@ function CylindoViewer() {
       return;
     }
     let diffClientX = e.clientX - clientX;
-    if (Math.abs(diffClientX) > 0) {
+    if (Math.abs(diffClientX) > 5) {
       if (diffClientX > 0) {
         sequenceForward();
       } else {
